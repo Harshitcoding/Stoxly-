@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   description: "Smart, simple, and seamless stock market tracking",
 };
 
+/**
+ * Application root layout that sets document language, applies global fonts, and renders children inside the page body.
+ *
+ * @param children - React nodes to render inside the document <body>.
+ * @returns The root HTML structure (<html> and <body>) with global font classes applied.
+ */
 export default function RootLayout({
   children,
 }: {
