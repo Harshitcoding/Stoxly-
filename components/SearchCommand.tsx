@@ -89,7 +89,7 @@ useEffect(()=>{
                 {displayStocks?.map((stock,i) =>(
                     <li key={stock.symbol} className='search-item'>
                         <Link
-                        href={`/stock/${stock.symbol}`}
+                        href={`/stocks/${stock.symbol}`}
                         onClick={handleSelectStock}
                         className='search-item-link'
                         >
