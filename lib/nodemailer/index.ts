@@ -15,9 +15,9 @@ export const sendWelcomeEmail = async ({ email, name, intro }: WelcomeEmailData)
     .replace('{{intro}}', intro);
 
   const mailOptions = {
-    from: `"Stoxly" <stoxly@harshit.pro>`,
+    from: `"Signalist" <Signalist@harshit.pro>`,
     to: email,
-    subject: `Welcome to Stoxly - your stock market toolkit is ready!`,
+    subject: `Welcome to Signalist - your stock market toolkit is ready!`,
     text: `Thanks for joining Stoxly`,
     html: htmlTemplate,
   };
